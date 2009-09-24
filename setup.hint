@@ -1,0 +1,7 @@
+category: Perl X11
+requires: libchamplain0.4_0 libclutter1.0_0 libgcc1 libglib2.0_0 libpango1.0_0 perl perl-Clutter perl-Glib
+sdesc: "Perl libchamplain bindings"
+ldesc: "Perl bindings for the C library libchamplain that provides a
+ClutterActor for displaying geographical maps from various free sources.
+Libchamplain provides a simple mechanism for rendering maps in an
+application or for embedding maps in an existing application."
