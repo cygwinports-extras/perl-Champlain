@@ -6,12 +6,12 @@ Libchamplain provides a simple mechanism for rendering maps in an
 application or for embedding maps in an existing application.
 
 Runtime requirements:
-  cygwin-1.7.0-61
-  libchamplain0.4_0-0.4.0-1
-  libclutter1.0_0-1.0.2-1
-  libgcc1-4.3.2-2
-  libglib2.0_0-2.20.5-1
-  libpango1.0_0-1.24.5-1
+  cygwin-1.7.0-62
+  libchamplain0.4_0-0.4.2-1
+  libclutter1.0_0-1.0.8-1
+  libgcc1-4.3.4-1
+  libglib2.0_0-2.22.2-1
+  libpango1.0_0-1.26.0-1
   perl-5.10.0-5
   perl-Clutter-1.002-1
   perl-Glib-1.222-1
@@ -19,8 +19,8 @@ Runtime requirements:
 Build requirements:
 (besides corresponding -devel packages)
   binutils-2.19.51-1
-  cygport-0.9.9-1
-  gcc4-core-4.3.2-2
+  cygport-0.9.10-1
+  gcc4-core-4.3.4-1
   make-3.81-2
   perl-ExtUtils-Depends-0.302-1
   perl-ExtUtils-PkgConfig-1.12-1
@@ -34,15 +34,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack perl-Champlain-0.08-X-src.tar.bz2
+  unpack perl-Champlain-0.10-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./perl-Champlain-0.08-X.cygport all
+  cygport ./perl-Champlain-0.10-X.cygport all
 
 This will create:
-  /usr/src/perl-Champlain-0.08-X-src.tar.bz2
-  /usr/src/perl-Champlain-0.08-X.tar.bz2
+  /usr/src/perl-Champlain-0.10-X-src.tar.bz2
+  /usr/src/perl-Champlain-0.10-X.tar.bz2
 
 For a list of files included in the binary package, run from the 
 command-line: 'cygcheck -cd perl-Champlain'.
@@ -50,6 +50,9 @@ command-line: 'cygcheck -cd perl-Champlain'.
 -------------------------------------------
 
 Port Notes:
+
+----- version 0.10-1 -----
+Version bump.
 
 ----- version 0.08-1 -----
 Initial release for Cygwin 1.7.
